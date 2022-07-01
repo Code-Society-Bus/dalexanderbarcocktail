@@ -1,0 +1,30 @@
+.cards{
+    position: relative;
+    overflow-x: auto;
+    display: flex;
+}
+.card-review{
+    min-width: 15rem;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    color: var(--dark);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.arrow-left{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.arrow-right{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: rotate(-180deg) translate(0%, -40%);
+	transform-origin: 100% 0;
+
+
+}

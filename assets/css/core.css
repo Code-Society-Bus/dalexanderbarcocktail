@@ -1,0 +1,11 @@
+@import './custom.css';
+@import './header.css';
+@import './figures.css';
+@import './reviews.css';
+
+
+body{
+    background: var(--dark) !important;
+    color: white !important;
+    
+}
