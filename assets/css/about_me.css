@@ -1,0 +1,61 @@
+@import './custom.css';
+
+.background-am-1{
+    padding: 100px;
+    background:  url('../images/about_me/1.png') no-repeat center center;
+}
+
+.content-wallpaper-am{
+    width:80% !important;
+    position: relative;
+}
+
+.walppaper-am{
+    width: 100%;
+
+}
+.corner-am{
+    width:50px; 
+    height:50px;
+    border-top: 3px solid var(--red);
+    border-left: 3px solid var(--red);
+    position: absolute;
+    top: -2%;
+    left: -2%;
+}
+.corner-am-bottom{
+    width:50px; 
+    height:50px;
+    border-bottom: 3px solid var(--red);
+    border-right: 3px solid var(--red);
+    position: absolute;
+    bottom: -2%;
+    right: -2%;
+}
+.bg-experiencie{
+    background:  url('../images/about_me/bg-experiencie.png') no-repeat top center;
+}
+
+.num-circle{
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num-circle::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: var(--red);
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
