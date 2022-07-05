@@ -1,9 +1,10 @@
 .background-bs{
-    padding: 100px;
+    height: 300px;
     background:  url('../images/bar_services/bg.png') no-repeat center center;
 }
 
 .content-bg-2{
+    width: auto;
     position: absolute;
     top: 40%;
     right: 0;

@@ -1,0 +1,41 @@
+@import './custom.css';
+
+.bg-index{
+    height: 300px;
+    background:  url('../images/cocktail_menu/bg-index.png') no-repeat center center;
+}
+
+.cm-item-sidebar {
+    text-decoration: none;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border: 2px solid var(--red)
+}
+.cm-item-sidebar.active {
+    background-color: var(--red);
+}
+
+.cm-item-sidebar:hover {
+    background-color: var(--dark-red);
+}
+
+.card-cocktail{
+    height: 100%;
+    width: 100%;
+    background-color: var(--red);
+    border-radius: 5px;
+}
+
+.img-cocktail{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+}
+.bg-cm{
+    position: absolute;
+    top: 40%;
+    left: -10%;
+    z-index: -100;
+}

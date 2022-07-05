@@ -9,6 +9,7 @@ header{
 /*NAVBAR*/
 nav{
     background-color: var(--dark);
+    z-index: 1000;
 }
 nav a{
     color: white !important;
