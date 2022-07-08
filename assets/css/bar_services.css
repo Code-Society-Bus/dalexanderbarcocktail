@@ -10,3 +10,10 @@
     right: 0;
     z-index: -100;
 }
+@media only screen and (max-width: 600px) {
+    .content-bg-2{
+        top: 80%;
+        right: 50%;
+        transform: translate(50%);
+    }
+}

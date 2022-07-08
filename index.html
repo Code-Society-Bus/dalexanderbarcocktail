@@ -8,59 +8,67 @@
 
     <!--Imports-->
     <link rel="stylesheet" href="assets/css/core.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
 <body>
    <div class="w-100">
-    <header class="d-flex flex-column">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark " >
-            <a class="navbar-brand d-lg-none" href="#"><img src="assets/svg/logo.svg"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
-                aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="myNavbarToggler7">
-                <div class="row justify-content-around align-items-center mx-auto">
-                    <a class="col text-center active" href="index.html">
-                        Inicio
-                    </a>
-                    <a class="col text-center" href="about_me.html">
-                        Sobre Mi
-                    </a>
-                    <a class="col text-center" href="#">
-                        Bar Servicios
-                    </a>
-                    <a class="col text-center d-none d-lg-block mx-3" href="index.html">
-                        <img src="assets/svg/logo.svg">
-                    </a>
-                    <a class="col text-center" href="cocktail_menu/populares.html">
-                        Cocktail Menu
-                    </a>
-                    
-                    <a class="col text-center" href="#">
-                        Bar Calendar
-                    </a>
-                    <a class="col text-center" href="bar_services.html">
-                        Contactame
-                    </a>
-                </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand d-lg-none" href="#"><img src="assets/svg/logo.svg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="row justify-content-around align-items-center mx-auto">
+                <a class="col-xs-12 col-md p-3 text-center active" href="index.html">
+                    Inicio
+                </a>
+                <a class="col-xs-12 col-md p-3 text-center" href="about_me.html">
+                    Sobre Mi
+                </a>
+                <a class="col-xs-12 col-md p-3 text-center" href="bar_services.html">
+                    Bar Servicios
+                </a>
+                <a class="col-xs-12 col-md p-3 text-center d-none d-lg-block mx-3" href="index.html">
+                    <img src="assets/svg/logo.svg">
+                </a>
+                <a class="col-xs-12 col-md p-3 text-center" href="cocktail_menu/populares.html">
+                    Cocktail Menu
+                </a>
+                
+                <a class="col-xs-12 col-md p-3 text-center" href="#">
+                    Bar Calendar
+                </a>
+                <a class="col-xs-12 col-md p-3 text-center" href="contact.html">
+                    Contactame
+                </a>
             </div>
-        </nav>
-
-        <section id="slider" class="flex-fill position-relative">
-            <div class="container content-controllers">
-                <div class="content-titles">
-                    <h1 id="titleSlider"></h1>
-                    <p id="subtitleSlider"></p>
+          </div>
+        </div>
+    </nav>
+    <header class="">
+        <section id="slider" class="h-100 position-relative">
+            <div class="px-5 d-flex flex-column h-100">
+                <div class="titles flex-fill ">
+                    <div class="d-flex flex-column ">
+                        <h1 id="titleSlider"></h1>
+                        <p id="subtitleSlider"></p>
+                    </div>
                     
                 </div>
-                <button class="btn-solicite btn btn-outline-danger w-10">Solicitar servicio</button>
-                <div class="controlls mt-4">
-                    <img id="prev" src="assets/svg/previus.svg" alt="">
-                    <span class="key"></span>
-                    <span class="key"></span>
-                    <span class="key"></span>
-                    <img id="next" src="assets/svg/next.svg" alt="">
+                <div class=" text-start">
+                    <button class="btn-solicite btn btn-outline-danger w-10">Solicitar servicio</button>
+                </div>
+
+                <div class="flex-fill mt-3">
+                    <div class="controlls">
+                        <img id="prev" src="assets/svg/previus.svg" alt="">
+                        <span class="key"></span>
+                        <span class="key"></span>
+                        <span class="key"></span>
+                        <img id="next" src="assets/svg/next.svg" alt="">
+                    </div>
                 </div>
             </div>
             <figure class="content-images">
@@ -209,7 +217,7 @@
     </footer>
    </div>
   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="assets/js/slider.js"></script>
 </body>
 </html>

@@ -59,3 +59,21 @@
     transform: translateX(-50%);
     z-index: -1;
 }
+
+.mobile-experiencie{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .num-circle{
+        height: 55px;
+        width: 55px;
+    }
+    .desktop-experiencie{
+        display: none;
+    }
+    .mobile-experiencie{
+        display: block;
+    }
+
+}

@@ -12,37 +12,38 @@
 </head>
 <body>
    <div class="w-100">
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark " >
-        <a class="navbar-brand d-lg-none" href="#"><img src="assets/svg/logo.svg"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
-            aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand d-lg-none" href="#"><img src="assets/svg/logo.svg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="myNavbarToggler7">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="row justify-content-around align-items-center mx-auto">
-                <a class="col text-center " href="index.html">
+                <a class="col-xs-12 col-md p-3 text-center " href="index.html">
                     Inicio
                 </a>
-                <a class="col text-center active" href="about_me.html">
+                <a class="col-xs-12 col-md p-3 text-center active" href="about_me.html">
                     Sobre Mi
                 </a>
-                <a class="col text-center" href="bar_services.html">
+                <a class="col-xs-12 col-md p-3 text-center" href="bar_services.html">
                     Bar Servicios
                 </a>
-                <a class="col text-center d-none d-lg-block mx-3" href="index.html">
+                <a class="col-xs-12 col-md p-3 text-center d-none d-lg-block mx-3" href="index.html">
                     <img src="assets/svg/logo.svg">
                 </a>
-                <a class="col text-center" href="cocktail_menu/populares.html">
+                <a class="col-xs-12 col-md p-3 text-center" href="cocktail_menu/populares.html">
                     Cocktail Menu
                 </a>
                 
-                <a class="col text-center" href="#">
+                <a class="col-xs-12 col-md p-3 text-center" href="#">
                     Bar Calendar
                 </a>
-                <a class="col text-center" href="contact.html">
+                <a class="col-xs-12 col-md p-3 text-center" href="contact.html">
                     Contactame
                 </a>
             </div>
+          </div>
         </div>
     </nav>
 
@@ -57,8 +58,8 @@
 
   <section >
     <div class="container">
-        <div class="row ">
-            <div class="col-6">
+        <div class="row g-4">
+            <div class="col-sm-6 col-xs-12">
                 <div class="d-flex justify-content-center">
                     <div class="content-wallpaper-am">
                         <span class="corner-am"></span>
@@ -67,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6 col-xs-12">
                 <div>
                     <h5>Alexander Barrios Cottos</h5>
                     <p>Bartender</p>
@@ -98,103 +99,231 @@
   </section>
 
    <section class="bg-experiencie">
-        <div class="container px-5">
+        <div class="container">
             <div class="row text-center my-4">
                 <h5>Experiencia Laboral</h5>
             </div>
 
-            <!--Item Experiencie-->
-            <div class="row justify-content-center">
-                <div class="col-5 my-4">
-                    <div class="rounded rounded-3 bg-red p-2">
-                        <ul>
-                            <li>Elaboración y promover la coctelería itinerante en el local.</li>
-                            <li>Shows en vivo de Flair.</li>
-                            <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
-                            <li>Atención al consumido</li>
-                        </ul>
+            <section class="desktop-experiencie">
+                <!--Item Experiencie-->
+                <div class="row justify-content-center">
+                    <div class="col-auto order-2 d-flex justify-content-center align-items-center position-relative">
+                        <div class="num-circle">01</div>
                     </div>
-                </div>
-                <div class="col-auto d-flex justify-content-center align-items-center position-relative">
-                    <div class="num-circle">01</div>
-                </div>
-                <div class="col-5 align-self-center my-4">
-                    <h6>Nomades Bar Itinerante</h6>
-                    <p>Bartender</p>
-                    <p>Mayo 2021 - Actualmente</p>
-                </div>
-            </div>
-
-            <!--Item Experiencie-->
-            <div class="row justify-content-center">
-                <div class="col-5 align-self-center text-end my-4">
-                    <h6>Nomades Bar Itinerante</h6>
-                    <p>Bartender</p>
-                    <p>Mayo 2021 - Actualmente</p>
-                </div>
-                <div class="col-auto d-flex justify-content-center align-items-center position-relative">
-                    <div class="num-circle bg-white text-red">02</div>
+                    <div class="col-5 order-first my-4">
+                        <div class="rounded rounded-3 bg-red p-2">
+                            <ul>
+                                <li>Elaboración y promover la coctelería itinerante en el local.</li>
+                                <li>Shows en vivo de Flair.</li>
+                                <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
+                                <li>Atención al consumido</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-5 order-last align-self-center my-4">
+                        <h6>Nomades Bar Itinerante</h6>
+                        <p>Bartender</p>
+                        <p>Mayo 2021 - Actualmente</p>
+                    </div>
                 </div>
 
-                <div class="col-5" my-4>
-                    <div class="rounded rounded-3 border-red p-2">
-                        <ul>
-                            <li>Elaboración y promover la coctelería itinerante en el local.</li>
-                            <li>Shows en vivo de Flair.</li>
-                            <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
-                            <li>Atención al consumido</li>
-                        </ul>
+                <!--Item Experiencie-->
+                <div class="row justify-content-center">
+                    <div class="col-5 align-self-center text-end my-4">
+                        <h6>Nomades Bar Itinerante</h6>
+                        <p>Bartender</p>
+                        <p>Mayo 2021 - Actualmente</p>
                     </div>
-                </div>
-               
-            </div>
-            <!--Item Experiencie-->
-            <div class="row justify-content-center">
-                <div class="col-5 my-4">
-                    <div class="rounded rounded-3 border-red p-2">
-                        <ul>
-                            <li>Elaboración y promover la coctelería itinerante en el local.</li>
-                            <li>Shows en vivo de Flair.</li>
-                            <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
-                            <li>Atención al consumido</li>
-                        </ul>
+                    <div class="col-auto d-flex justify-content-center align-items-center position-relative">
+                        <div class="num-circle bg-white text-red">02</div>
                     </div>
-                </div>
+
+                    <div class="col-5" my-4>
+                        <div class="rounded rounded-3 border-red p-2">
+                            <ul>
+                                <li>Elaboración y promover la coctelería itinerante en el local.</li>
+                                <li>Shows en vivo de Flair.</li>
+                                <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
+                                <li>Atención al consumido</li>
+                            </ul>
+                        </div>
+                    </div>
                 
-                <div class="col-auto d-flex justify-content-center align-items-center position-relative">
-                    <div class="num-circle bg-white text-red">03</div>
                 </div>
-                <div class="col-5 align-self-center my-4">
-                    <h6>Nomades Bar Itinerante</h6>
-                    <p>Bartender</p>
-                    <p>Mayo 2021 - Actualmente</p>
-                </div>
-                
-               
-            </div>
-            <!--Item Experiencie-->
-            <div class="row justify-content-center">
-                <div class="col-5 align-self-center text-end my-4">
-                    <h6>Nomades Bar Itinerante</h6>
-                    <p>Bartender</p>
-                    <p>Mayo 2021 - Actualmente</p>
-                </div>
-                <div class="col-auto d-flex justify-content-center align-items-center position-relative">
-                    <div class="num-circle bg-white text-red">04</div>
-                </div>
-
-                <div class="col-5 my-4">
-                    <div class="rounded rounded-3 border-red p-2">
-                        <ul>
-                            <li>Elaboración y promover la coctelería itinerante en el local.</li>
-                            <li>Shows en vivo de Flair.</li>
-                            <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
-                            <li>Atención al consumido</li>
-                        </ul>
+                <!--Item Experiencie-->
+                <div class="row justify-content-center">
+                    <div class="col-5 my-4">
+                        <div class="rounded rounded-3 border-red p-2">
+                            <ul>
+                                <li>Elaboración y promover la coctelería itinerante en el local.</li>
+                                <li>Shows en vivo de Flair.</li>
+                                <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
+                                <li>Atención al consumido</li>
+                            </ul>
+                        </div>
                     </div>
+                    
+                    <div class="col-auto d-flex justify-content-center align-items-center position-relative">
+                        <div class="num-circle bg-white text-red">03</div>
+                    </div>
+                    <div class="col-5 align-self-center my-4">
+                        <h6>Nomades Bar Itinerante</h6>
+                        <p>Bartender</p>
+                        <p>Mayo 2021 - Actualmente</p>
+                    </div>
+                    
+                
                 </div>
-               
-            </div>
+                <!--Item Experiencie-->
+                <div class="row justify-content-center">
+                    <div class="col-5 align-self-center text-end my-4">
+                        <h6>Nomades Bar Itinerante</h6>
+                        <p>Bartender</p>
+                        <p>Mayo 2021 - Actualmente</p>
+                    </div>
+                    <div class="col-auto d-flex justify-content-center align-items-center position-relative">
+                        <div class="num-circle bg-white text-red">04</div>
+                    </div>
+
+                    <div class="col-5 my-4">
+                        <div class="rounded rounded-3 border-red p-2">
+                            <ul>
+                                <li>Elaboración y promover la coctelería itinerante en el local.</li>
+                                <li>Shows en vivo de Flair.</li>
+                                <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
+                                <li>Atención al consumido</li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </div>
+            </section>
+
+            <section class="mobile-experiencie">
+                
+                <div class="container">
+                    <!--Item Experiencie-->
+                    <div class="row justify-content-center ">
+                        <div class="col-auto">
+                            <div class="row h-100">
+                                <div class="col order-2 d-flex justify-content-center align-items-center position-relative">
+                                    <div class="num-circle">01</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col m-2 p-0">
+                            <div class="row g-2 bg-black bg-opacity-10 p-2">
+                                <div class="col-12  align-self-center">
+                                    <h6>Nomades Bar Itinerante</h6>
+                                    <p>Bartender</p>
+                                    <p>Mayo 2021 - Actualmente</p>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="rounded rounded-3 bg-red p-2">
+                                        <ul>
+                                            <li>Elaboración y promover la coctelería itinerante en el local.</li>
+                                            <li>Shows en vivo de Flair.</li>
+                                            <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
+                                            <li>Atención al consumido</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Item Experiencie-->
+                    <div class="row justify-content-center ">
+                        <div class="col-auto">
+                            <div class="row h-100">
+                                <div class="col order-2 d-flex justify-content-center align-items-center position-relative">
+                                    <div class="num-circle bg-white text-red">02</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col m-2 p-0">
+                            <div class="row g-2 bg-black bg-opacity-10 p-2">
+                                <div class="col-12  align-self-center">
+                                    <h6>Nomades Bar Itinerante</h6>
+                                    <p>Bartender</p>
+                                    <p>Mayo 2021 - Actualmente</p>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="rounded rounded-3 border-red p-2">
+                                        <ul>
+                                            <li>Elaboración y promover la coctelería itinerante en el local.</li>
+                                            <li>Shows en vivo de Flair.</li>
+                                            <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
+                                            <li>Atención al consumido</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Item Experiencie-->
+                    <div class="row justify-content-center ">
+                        <div class="col-auto">
+                            <div class="row h-100">
+                                <div class="col order-2 d-flex justify-content-center align-items-center position-relative">
+                                    <div class="num-circle bg-white text-red">03</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col m-2 p-0">
+                            <div class="row g-2 bg-black bg-opacity-10 p-2">
+                                <div class="col-12  align-self-center">
+                                    <h6>Nomades Bar Itinerante</h6>
+                                    <p>Bartender</p>
+                                    <p>Mayo 2021 - Actualmente</p>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="rounded rounded-3 border-red p-2">
+                                        <ul>
+                                            <li>Elaboración y promover la coctelería itinerante en el local.</li>
+                                            <li>Shows en vivo de Flair.</li>
+                                            <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
+                                            <li>Atención al consumido</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Item Experiencie-->
+                    <div class="row justify-content-center ">
+                        <div class="col-auto">
+                            <div class="row h-100">
+                                <div class="col order-2 d-flex justify-content-center align-items-center position-relative">
+                                    <div class="num-circle bg-white text-red">04</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col m-2 p-0">
+                            <div class="row g-2 bg-black bg-opacity-10 p-2">
+                                <div class="col-12  align-self-center">
+                                    <h6>Nomades Bar Itinerante</h6>
+                                    <p>Bartender</p>
+                                    <p>Mayo 2021 - Actualmente</p>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="rounded rounded-3 border-red p-2">
+                                        <ul>
+                                            <li>Elaboración y promover la coctelería itinerante en el local.</li>
+                                            <li>Shows en vivo de Flair.</li>
+                                            <li>Procedimientos de manipulación y producción de alimentos( Mise en place )</li>
+                                            <li>Atención al consumido</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    
+                </div>
+            </section>
 
         </div>
    </section>

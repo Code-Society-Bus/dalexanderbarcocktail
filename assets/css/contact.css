@@ -1,6 +1,11 @@
-.content-title{
+/* .content-title{
     padding: 100px;
-}
+} */
 .bg-contact{
     background:  url('../images/contact/bg-contact.png') no-repeat right top;
+}
+@media only screen and (max-width: 600px) {
+    .bg-contact{
+        background-position: center;
+    }
 }

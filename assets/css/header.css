@@ -3,7 +3,7 @@
 
 
 header{
-    height: 100vh;
+    height: calc(100vh - 92px);
 }
 
 /*NAVBAR*/
@@ -40,28 +40,24 @@ nav a.active{
 
 
 
-
-.content-controllers{
-    position: absolute;
-    left: 5%;
-    top: 50%;
-    transform: translate(0%, -50%);
-    z-index: 100;
-}
-
 .controlls{
     display: flex;
     column-gap: 10px;
     align-items: center;
 }
 
-.content-titles{
-    padding-top: 20px;
-    padding-bottom: 20px;
+.titles{
+    display: flex;
+    align-items: flex-end ;
 }
 
 
 @media only screen and (max-width: 600px) {
+    .titles{
+        text-align: center;
+        justify-content: center;
+        align-items: center !important;
+    }
     .content-images{
         height: auto;
     }
@@ -80,9 +76,9 @@ nav a.active{
     }
     .btn-solicite{
         position: absolute;
-        top: 20%; 
+        top: 40%; 
         left: 50%; 
-        transform: translate(-50%);
+        transform: translate(-50%, -50%);
         z-index: 100;
     }
 }
