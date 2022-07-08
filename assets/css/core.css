@@ -6,10 +6,13 @@
 @import './bar_services.css';
 @import './cocktail_menu.css';
 @import './contact.css';
+@import './slider.css';
+@import './animations.css';
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 body{
     background: var(--dark) !important;
     color: white !important;
+    font-family: 'Poppins', sans-serif !important;
     
 }

@@ -64,7 +64,8 @@ function mainSilder(){
         
 
     activeSlide( slider_active )
-    activeKey()        
+    activeKey()
+    
 }
 
 function activeKey(){
@@ -82,9 +83,22 @@ function activeSlide( slide ){
     domSubtitle.innerHTML = propsSlider[ slide ].subtitle
     domImg.src = propsSlider[ slide ].img
     activeKey()
+    effectReveal()
 }
 
 function slideIsLast(){
     return slider_active >= propsSlider.length
 }
 
+function effectReveal(){
+    domTitle.classList.add('reveal')
+    domSubtitle.classList.add('reveal')
+    domImg.classList.add('reveal')
+
+    setTimeout(()=>{
+        domTitle.classList.remove('reveal')
+        domSubtitle.classList.remove('reveal')
+        domImg.classList.remove('reveal')
+    },500)
+    
+}

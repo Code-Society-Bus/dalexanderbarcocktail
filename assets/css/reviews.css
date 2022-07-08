@@ -1,8 +1,76 @@
-.cards{
+
+.wrapper {
     position: relative;
-    overflow-x: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .wrapper:before, .wrapper:after {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    content: "";
+    display: block;
+    width: 20px;
+    height: 100%;
+    
+  }
+  .wrapper:before {
+    left: 0;
+    background: linear-gradient(90deg, #222, transparent);
+  }
+  .wrapper:after {
+    right: 0;
+    background: linear-gradient(-90deg, #222, transparent);
+  }
+  
+  .items {
     display: flex;
-}
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+   
+    font-size: 10;
+    cursor: grab;
+  }
+  .items.active {
+    cursor: grab;
+  }
+  
+  .item {
+    display: inline-block;
+    margin-left: 20px;
+    user-select: none;
+    background: tomato;
+    width: 50%;
+    height: 130px;
+    color: #222;
+    font-size: 8px;
+    line-height: 130px;
+  }
+  .item:last-child {
+    margin-right: 20px;
+  }
+  
+  @media screen and (min-width: 500px) {
+    .item {
+      width: 33%;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .item {
+      width: 25%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .wrapper {
+      margin-left: -20px;
+    }
+  
+    .item {
+      width: 20%;
+    }
+  }
+
 .card-review{
     min-width: 15rem;
     height: auto;
@@ -18,6 +86,7 @@
     left: 0;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: 100;
 }
 .arrow-right{
     position: absolute;
@@ -25,6 +94,7 @@
     top: 50%;
     transform: rotate(-180deg) translate(0%, -40%);
 	transform-origin: 100% 0;
+    z-index: 100;
 
 
 }
