@@ -8,6 +8,8 @@
 @import './contact.css';
 @import './slider.css';
 @import './animations.css';
+@import './preloading.css';
+@import './bar_calendar.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 body{
@@ -15,4 +17,11 @@ body{
     color: white !important;
     font-family: 'Poppins', sans-serif !important;
     
+}
+main{
+    padding: 0;
+}
+
+main h1{
+    margin: 0;
 }

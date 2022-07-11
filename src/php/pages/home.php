@@ -1,52 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D'Alexander Bar Coctel 🍹</title>
-
-    <!--Imports-->
-    <link rel="stylesheet" href="assets/css/core.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
-</head>
-<body>
-   <div class="w-100">
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark ">
-        <div class="container-fluid">
-          <a class="navbar-brand d-lg-none" href="#"><img src="assets/svg/logo.svg"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="row justify-content-around align-items-center mx-auto">
-                <a class="col-xs-12 col-md p-3 text-center active" href="index.html">
-                    Inicio
-                </a>
-                <a class="col-xs-12 col-md p-3 text-center" href="about_me.html">
-                    Sobre Mi
-                </a>
-                <a class="col-xs-12 col-md p-3 text-center" href="bar_services.html">
-                    Bar Servicios
-                </a>
-                <a class="col-xs-12 col-md p-3 text-center d-none d-lg-block mx-3" href="index.html">
-                    <img src="assets/svg/logo.svg">
-                </a>
-                <a class="col-xs-12 col-md p-3 text-center" href="cocktail_menu/populares.html">
-                    Cocktail Menu
-                </a>
-                
-                <a class="col-xs-12 col-md p-3 text-center" href="#">
-                    Bar Calendar
-                </a>
-                <a class="col-xs-12 col-md p-3 text-center" href="contact.html">
-                    Contactame
-                </a>
-            </div>
-          </div>
-        </div>
-    </nav>
     <header class="">
         <section id="slider" class="h-100 position-relative">
             <div class="px-5 d-flex flex-column h-100">
@@ -122,7 +73,7 @@
                     <div class="arrow-right">
                         <img  src="assets/svg/arrow.svg" alt="">
                     </div> -->
-                    <div class="items gap-3">
+                    <div class="items-services gap-3">
                         <div class="card-review">
                             <p class="flex-fill text-dark">
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus tempore explicabo adipisci. Distinctio mollitia harum blanditiis reiciendis dignissimos est numquam iste, atque quod nihil voluptas sed commodi? Possimus, nobis tempore?
@@ -167,52 +118,17 @@
                     </div>
                 </div>
             </div>
-            <!-- <section class="col position-relative">
-                <div class="arrow-left">
-                    <img  src="assets/svg/arrow.svg" alt="">
-                </div>
-                <div class="arrow-right">
-                    <img  src="assets/svg/arrow.svg" alt="">
-                </div>
-                <div class="cards gap-3">
-                    <article class="card-review">
-                        <p class="flex-fill">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus tempore explicabo adipisci. Distinctio mollitia harum blanditiis reiciendis dignissimos est numquam iste, atque quod nihil voluptas sed commodi? Possimus, nobis tempore?
-                        </p>
-                        <figcaption class="blockquote-footer text-end mb-auto">
-                           <img src="assets/svg/user_review.svg" alt=""> <cite title="Source Title">Source Title</cite>
-                        </figcaption>
-                    </article>
-                    <article class="card-review">
-                        <p class="flex-fill">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere aut maiores exercitationem perspiciatis voluptatem, aliquam illo alias facilis rerum et quibusdam, provident, quam necessitatibus soluta fugiat sequi a porro cupiditate?
-                            Consequuntur pariatur quaerat similique neque minima distinctio eos quo fugit quis aliquam, reprehenderit earum laborum vel saepe quasi! Vel porro pariatur, delectus quod explicabo incidunt quasi modi sit et eos!
-                        </p>
-                        <figcaption class="blockquote-footer text-end m-0">
-                           <img src="assets/svg/user_review.svg" alt=""> <cite title="Source Title">Source Title</cite>
-                        </figcaption>
-                    </article>
-                    <article class="card-review">
-                        <p class="flex-fill">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus tempore explicabo adipisci. Distinctio mollitia harum blanditiis reiciendis dignissimos est numquam iste, atque quod nihil voluptas sed commodi? Possimus, nobis tempore?
-                        </p>
-                        <figcaption class="blockquote-footer text-end m-0">
-                           <img src="assets/svg/user_review.svg" alt=""> <cite title="Source Title">Source Title</cite>
-                        </figcaption>
-                    </article>
-                </div>
-            </section> -->
         </div>
    </section>
 
    <section class="p-5">
-        <div class="row">
+        <div class="row g-4">
             <div class="col-md-6 col-12">
                 <div class="ratio ratio-16x9">
                     <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-md-6 col-12 my-auto">
+            <div class="col-md-6 col-12 align-self-center">
                 <h3 class="fw-bold">D'Alexander en acción</h3>
                 <p class="fw-lighter">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci omnis illum numquam itaque facere, quam voluptates vitae ex eaque accusantium voluptas incidunt minus aut molestias sint eius, nemo fugit iusto.
@@ -261,21 +177,3 @@
         </div>
 
    </section>
-
-    <footer class="p-5 d-flex flex-column text-center gap-5">
-        <div class="d-flex gap-5 justify-content-center">
-            <img class=" redes" src="assets/svg/wsp.svg" alt="">
-            <img class="redes" src="assets/svg/fb.svg" alt="">
-            <img class="redes" src="assets/svg/ig.svg" alt="">
-        </div>
-        <h6 class="fw-light">Copyrigth D'Alexander Bar Coctel by CodeSociety</h6>
-    </footer>
-   </div>
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/reviews_slider.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="assets/js/animations.js"></script>
-</body>
-</html>

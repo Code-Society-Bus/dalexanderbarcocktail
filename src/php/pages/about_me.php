@@ -1,53 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D'Alexander Bar Coctel 🍹</title>
-
-    <!--Imports-->
-    <link rel="stylesheet" href="assets/css/core.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body>
-   <div class="w-100">
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark ">
-        <div class="container-fluid">
-          <a class="navbar-brand d-lg-none" href="#"><img src="assets/svg/logo.svg"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="row justify-content-around align-items-center mx-auto">
-                <a class="col-xs-12 col-md p-3 text-center " href="index.html">
-                    Inicio
-                </a>
-                <a class="col-xs-12 col-md p-3 text-center active" href="about_me.html">
-                    Sobre Mi
-                </a>
-                <a class="col-xs-12 col-md p-3 text-center" href="bar_services.html">
-                    Bar Servicios
-                </a>
-                <a class="col-xs-12 col-md p-3 text-center d-none d-lg-block mx-3" href="index.html">
-                    <img src="assets/svg/logo.svg">
-                </a>
-                <a class="col-xs-12 col-md p-3 text-center" href="cocktail_menu/populares.html">
-                    Cocktail Menu
-                </a>
-                
-                <a class="col-xs-12 col-md p-3 text-center" href="#">
-                    Bar Calendar
-                </a>
-                <a class="col-xs-12 col-md p-3 text-center" href="contact.html">
-                    Contactame
-                </a>
-            </div>
-          </div>
-        </div>
-    </nav>
-
-   <section class=" overflow-hidden pt-5">
+<section class=" overflow-hidden pt-5">
     <div class="background-am-1 padding-tittle">
         <div class="row text-center" >
             <h4 class="fw-bold">Sobre Mi</h4>
@@ -345,18 +296,3 @@
         </div>
 
    </section>
-
-    <footer class="p-5 d-flex flex-column text-center gap-5">
-        <div class="d-flex gap-5 justify-content-center">
-            <img src="assets/svg/wsp.svg" alt="">
-            <img src="assets/svg/fb.svg" alt="">
-            <img src="assets/svg/ig.svg" alt="">
-        </div>
-        <h6 class="fw-light">Copyrigth D'Alexander Bar Coctel by CodeSociety</h6>
-    </footer>
-   </div>
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="assets/js/slider.js"></script>
-</body>
-</html>
