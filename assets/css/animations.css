@@ -55,3 +55,6 @@
         animation: bunny-mobile 1s ease forwards !important;
     }
 }
+.fade {
+    transition: opacity .1s linear !important; 
+  }

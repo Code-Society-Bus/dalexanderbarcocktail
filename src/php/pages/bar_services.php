@@ -1,8 +1,6 @@
     <section class="  pt-5">
-        <div class="background-bs padding-tittle">
-            <div class="row text-center" >
-                <h4 class="fw-bold">Bar Servicios</h4>
-            </div>
+        <div class="background-bs padding-tittle text-center">
+            <h4 class="fw-bold">Bar Servicios</h4>
         </div>
     </section>
 
@@ -53,20 +51,14 @@
         </div>
     </section>
 
-    <section class="p-5 ">
+    <!-- <section class="p-5 ">
         <div class="row text-center my-4">
             <h2>Reseñas de nuestros clientes</h2>
         </div>
         <div class="row ">
             <div class="col">
                 <div class="wrapper">
-                    <!-- <div class="arrow-left">
-                        <img  src="assets/svg/arrow.svg" alt="">
-                    </div>
-                    <div class="arrow-right">
-                        <img  src="assets/svg/arrow.svg" alt="">
-                    </div> -->
-                    <div class="items gap-3">
+                    <div class="items-services gap-3">
                         <div class="card-review">
                             <p class="flex-fill text-dark">
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus tempore explicabo adipisci. Distinctio mollitia harum blanditiis reiciendis dignissimos est numquam iste, atque quod nihil voluptas sed commodi? Possimus, nobis tempore?
@@ -112,7 +104,7 @@
                 </div>
             </div>
         </div>
-   </section>
+   </section> -->
 
    <section class="py-5 ">
         <div class="position-relative d-flex justify-content-end">

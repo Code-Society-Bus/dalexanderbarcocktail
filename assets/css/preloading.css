@@ -1,8 +1,11 @@
+@import './custom.css';
+
 .preloading{
     z-index: 5000;
     height: 100vh;
     width: 100%;
-    background-color: #08095e;
+    background: rgb(122,40,53);
+    background: radial-gradient(circle, rgba(122,40,53,0.8463760504201681) 22%, rgba(46,15,20,1) 74%);
     display: flex;
     justify-content: center;
     align-items: center;

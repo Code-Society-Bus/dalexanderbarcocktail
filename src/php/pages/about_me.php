@@ -1,9 +1,7 @@
 <section class=" overflow-hidden pt-5">
-    <div class="background-am-1 padding-tittle">
-        <div class="row text-center" >
-            <h4 class="fw-bold">Sobre Mi</h4>
-            <p>Conoce al profesional, estoy a tu disposicion para brindar un servicio de calidad.</p>
-        </div>
+    <div class="background-am-1 padding-tittle text-center">
+        <h4 class="fw-bold">Sobre Mi</h4>
+        <p>Conoce al profesional, estoy a tu disposicion para brindar un servicio de calidad.</p>
     </div>
    </section>
 

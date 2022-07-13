@@ -73,7 +73,7 @@
                     <div class="arrow-right">
                         <img  src="assets/svg/arrow.svg" alt="">
                     </div> -->
-                    <div class="items-services gap-3">
+                    <div class="items gap-3">
                         <div class="card-review">
                             <p class="flex-fill text-dark">
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus tempore explicabo adipisci. Distinctio mollitia harum blanditiis reiciendis dignissimos est numquam iste, atque quod nihil voluptas sed commodi? Possimus, nobis tempore?
